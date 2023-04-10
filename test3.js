@@ -9,7 +9,7 @@ const st = {
     }, 100);
   }
 }
-st.greeting() // ?
+st.greeting() // ? 'undifined'
 //
 const mtp = {
   name: 'MTP',
@@ -24,4 +24,4 @@ const mtp = {
 mtp.greeting(() => {
   console.log(mtp.name)
 })
-// ?
+// 
